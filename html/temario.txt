@@ -1,0 +1,72 @@
+Curso de HTML
+Introduccion
+- ¿Que es HTML?
+	¿Que es HTML?
+		¿Que es una etiqueta HTML?
+		Ejemplo de código HTML
+	¿Que es la semantica?
+		Ejemplo de semántica HTML
+
+- Estructura de una etiqueta HTML
+	Etiqueta HTML
+		Atributos HTML
+		Contenido de la etiqueta
+	Comentario HTML
+
+- Atributos comunes en HTML
+	Identificador: El atributo id
+	Clases: El atributo class
+	Estilos en linea: El atributo style
+
+- Tabla periódica de HTML5
+
+Documento HTML
+- Estructura del documento HTML
+	Estructura de la página
+	El DOCTYPE (tipo de documento)
+	La etiqueta head (metadatos)
+	La etiqueta body (cuerpo)
+
+- Etiquetas HTML obsoletas
+	Etiquetas obsoletas
+	Atributos obsoletos
+
+- Validacion de errores HTML
+	Tipos de problemas
+	Validar errores de sintaxis HTML
+		Otras vias de validación
+
+- Atributos de metadatos e idioma
+	Atributos de metadatos
+		Tooltips: El atributo title
+		Metadatos: El atributo data-
+		Atajos: El atributo accesskey
+	Atributos de idioma
+		Idioma: El atributo lang
+		Traduccion: El atributo translate
+		Direccionalidad: El atributo dir
+
+Etiquetas de cabecera
+- ¿Qué son las etiquetas head?
+	La etiqueta <head>
+	La etiqueta <meta>
+
+- La etiqueta <title>
+	La etiqueta <title>
+	Requisitos del titulo
+	Acceder al titulo desde javascript
+
+- La etiqueta base
+	La etiqueta base
+		El atributo href
+		El atributo target
+
+Metadatos
+- La etiqueta <meta>
+	La etiqueta <meta>
+	Codificacion del documento
+	Tema de color del navegador
+	Metadatos de simulación HTTP
+	Redirección Javascript
+	Etiquetas de caché
+	

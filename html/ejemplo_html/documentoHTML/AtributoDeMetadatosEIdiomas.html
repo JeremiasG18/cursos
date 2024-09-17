@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributo de metadatos e idioma</title>
+</head>
+<body>
+    <!-- Tooltips: El atributo title -->
+    <div>
+        <img src="gandalf.jpg"
+            alt="Gandalf el gris, utilizando un portátil para consultar su correo."
+            title="¡Este es Gandalf el gris!" />
+        <p>Mantén el ratón unos instantes sobre la imagen anterior.</p>
+    </div>
+
+    <!--------------------------------------------------------------------------->
+
+    <!-- Metadatos: El atributo data- -->
+    <div id="social-networks">
+        <a href="https://twitter.com/Manz" data-subs="44000">Twitter</a>
+        <a href="https://youtube.com/@ManzDev" data-subs="10000">Youtube</a>
+        <a href="https://twitch.tv/ManzDev" data-subs="13000">Twitch</a>
+    </div>
+
+    <!-- Obtener los datos -->
+    <script>
+        const links = document.querySelectorAll("#social-networks a");
+
+        links[0].dataset.subs;              // 44000
+        links[1].getAttribute("data-subs"); // 10000
+    </script>
+
+    <!--------------------------------------------------------------------------->
+
+    <!-- Atajos: El atributo accesskey -->
+    <form>
+        <input accesskey="N" placeholder="Nombre (ALT+N)" />          <!-- Campo de datos -->
+        <input accesskey="A" placeholder="Apellidos (ALT+A)" />       <!-- Campo de datos -->
+        <a accesskey="L" href="https://manz.dev/">Enlace (ALT+L)</a>  <!-- Enlace HTML -->
+        <button accesskey="B">Botón (ALT+B)</button>                  <!-- Botón HTML -->
+    </form>
+
+    <!--------------------------------------------------------------------------->
+
+    <!-- Idioma: El atributo lang -->
+    <!DOCTYPE html>
+    <html lang="es">
+    ...
+    </html>
+
+    <!--------------------------------------------------------------------------->
+
+    <!-- Traduccion: El atributo translate -->
+    <p>
+        Hace algunos días fuí a ver la nueva película de <span translate="no">StarWars</span>.
+    </p>
+
+    <!--------------------------------------------------------------------------->
+
+    <!-- Direccionalidad: El atributo dir -->
+    <p>Esto es un ejemplo de texto con direccionalidad de izquierda a derecha.</p>
+    <p dir="rtl">Esto es un ejemplo de texto con direccionalidad de derecha a izquierda.</p>
+    
+</body>
+</html>
