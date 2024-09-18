@@ -67,6 +67,21 @@ Metadatos
 	Codificacion del documento
 	Tema de color del navegador
 	Metadatos de simulación HTTP
-	Redirección Javascript
-	Etiquetas de caché
+		Redirección Javascript
+		Etiquetas de caché
+
+- Etiquetas para redes sociales
+	Mediante HTML estándar
+	Mediante Open Graph
+	Mediante Twitter Cards
+
+- Etiquetas para SEO/Google
+	Metadatos para SEO
+	Metadatos de indexación en Google
+	La etiqueta <meta> robots
+
+- Etiqueta para diseño responsive
+	¿Qué es el Viewport?
+	Parámetros de viewport
+	
 	
