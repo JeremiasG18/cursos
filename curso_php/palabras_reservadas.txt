@@ -1,0 +1,19 @@
+Curso de php
+echo
+if, elseif, else
+var_dump
+round
+gettype
+is_int, is_string => is_"tipo"
+settype
+null
+is_null()
+unset()
+true, false
+nan
+round()
+intval()
+int
+abs()
+is_nan()
+

@@ -1,0 +1,41 @@
+Referencia del lenguaje
+	- Sintaxis básica
+		Etiquetas de php
+		Salir de HTML
+		Separación de instrucciones
+		Comentarios
+
+	-  Tipos
+		Introduccion
+		Sistema de tipos
+			Atomic types
+			Composite types
+				Intersection types
+				Union types
+				Type aliases
+		Nulo
+			Sintaxis
+			La conversión a null
+		Booleanos
+			Sintaxis
+			Conversión a booleano
+		Números enteros (integers)
+			Sintaxis
+			Desbordamiento de enteros
+			Conversión a números enteros
+				Desde booleanos
+				Desde numeros de punto flotante
+				Desde cadenas de caracteres
+				Desde otros tipos
+		Números de punto flotante
+			Advertencia de precisión del punto flotante
+			Conversión al tipo float
+			Conversión del tipo float
+			Comparación del tipo float
+			NaN
+		Cadenas de caracteres (String)
+			Sintaxis
+				Entrecomillado simple
+				Entrecomillado doble
+				Heredoc
+				

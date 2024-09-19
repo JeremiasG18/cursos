@@ -31,4 +31,5 @@
     var_dump((bool) array(12));
     var_dump((bool) array());
     var_dump((bool) "false");
+    
 ?>
