@@ -67,38 +67,6 @@ Metadatos
 	Codificacion del documento
 	Tema de color del navegador
 	Metadatos de simulación HTTP
-		Redirección Javascript
-		Etiquetas de caché
-
-- Etiquetas para redes sociales
-	Mediante HTML estándar
-	Mediante Open Graph
-	Mediante Twitter Cards
-
-- Etiquetas para SEO/Google
-	Metadatos para SEO
-	Metadatos de indexación en Google
-	La etiqueta <meta> robots
-
-- Etiqueta para diseño responsive
-	¿Qué es el Viewport?
-	Parámetros de viewport
-	
-- La etiqueta HTML <link>
-	Relación: La etiqueta <link>
-	Versiones alternativas
-	Posicionamiento SEO (Google)
-	Referencias mediante pingback
-	Información adicional o datos
-	Manifesto de aplicación
-	
-- Stylesheet: Hojas de estilo externas
-	La etiqueta <link rel="stylesheet">
-	La etiqueta <link rel="alternate stylesheet">
-	Legacy: Atributo type="text/css"
-
-- Favicon: El icono de las pestañas
-	La etiqueta <link rel="icon">
-
-- Etiquetas HTML de precarga
+	Redirección Javascript
+	Etiquetas de caché
 	
