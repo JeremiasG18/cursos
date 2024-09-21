@@ -114,3 +114,46 @@ Recursos externos
 		Precarga de archivo
 		Precarga de módulo
 	Tipos de recursos
+
+Etiquetas de agrupación
+- La etiqueta de agrupación
+	Etiquetas HTML de agrupación
+	Parrafo de texto <p>
+	Contenido principal <main>
+	Separación tematica <hr>
+
+- La etiqueta HTML <div>
+	Capas o divisores <div>
+	Representación visual
+	Ubicación del elemento
+	Excesivas etiquetas anidadas
+	Agrupaciones semanticas
+
+- Las etiquetas HTML <ul> y <ol>
+	Lista no enumerada <ul>
+	Elemento de la lista <li>
+		Omision de cierre
+		Ponderar elementos
+	Lista de menú <menu>
+	Lista enumerada <ol>
+		Número del primer ítem
+		Tipo de numeración
+		Invertir orden
+
+- La etiqueta HTML <blockquote>
+	Citas o referencias
+	El atributo cite
+	Citas encadenadas
+	
+- La etiqueta HTML <pre>
+	Bloques de código
+	Librerías de resaltado de sintaxis
+	Otras librerias de resaltado
+	
+- La etiqueta HTML <dl>
+	Listas de descripción
+	
+- La etiqueta HTML <figure>
+	Figuras: La etiqueta <figure>
+	La etiqueta <figcaption>
+	
