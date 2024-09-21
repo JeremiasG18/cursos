@@ -37,5 +37,33 @@ Referencia del lenguaje
 			Sintaxis
 				Entrecomillado simple
 				Entrecomillado doble
+					Caracteres escapados
 				Heredoc
-				
+				Nowdoc
+				Analisis de variables
+					Sintaxis simple
+					Sintaxis compleja (llaves)
+				Acceso a string y modificación por caracteres
+			Funciones y operadores utiles
+			Conversion a string
+			Conversion de string a numeros
+			Detalles del tipo string
+		Cadenas numericas => numeric strings
+			String used in numeric contexts
+			Behavior prior to PHP 8.0.0
+		Arrays
+			Sintaxis
+				Especificación con array()
+				Acceso a elementos de array con la sintaxis de corchete
+				Creación/modificación con la sintaxis de corchete
+				Funciones útiles
+			Recomendaciones sobre arrays y cosas a evitar
+				¿Por qué es incorrecto $foo[bar]?
+			Conversion a array
+			Comparación
+			Descomprensión de matrices => array unpacking
+			Ejemplos
+		Objetos
+			Inicialización de objetos
+			Conversión a un objeto
+			

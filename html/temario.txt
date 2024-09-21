@@ -114,4 +114,3 @@ Recursos externos
 		Precarga de archivo
 		Precarga de módulo
 	Tipos de recursos
-	
