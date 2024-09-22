@@ -1,4 +1,5 @@
 Curso de php
+echo
 if, elseif, else
 var_dump()
 round()
@@ -27,7 +28,11 @@ define()
 $_GET
 strtoupper()
 opendir()
-
+call_user_func()
+range()
+array_map()
+implode()
+print
 
 Funciones de string
 addcslashes() => Devuelve un string con barras invertidas antes de los caracteres que aparecen en el parámetro characters.

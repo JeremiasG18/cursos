@@ -66,4 +66,21 @@ Referencia del lenguaje
 		Objetos
 			Inicialización de objetos
 			Conversión a un objeto
+		Enumerations
+			Basic Enumerations
+			Casting
+		Recursos
+			Conversion a recurso
+			Liberación de recursos
+		Llamadas de retorno (Callbacks/Callables)
+			Pasar una función de llamada de retorno
+		Mixed
+		Void
+		Never
+		Relative class type
+			self
+			parent
+			static
+		Value types
+
 			
