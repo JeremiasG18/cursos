@@ -157,3 +157,40 @@ Etiquetas de agrupación
 	Figuras: La etiqueta <figure>
 	La etiqueta <figcaption>
 	
+Etiquetas multimedia
+- La etiqueta HTML <img>
+	La etiqueta <img>
+	El atributo src
+	El atributo alt
+	Los atributos width y height
+	Carga de imagenes
+		El atributo loading
+		El atributo fetchpriority
+		El atributo decoding
+	Múltiples imágenes
+		El atributo srcset
+		El atributo sizes
+
+- La etiqueta HTML <picture>
+	La etiqueta <picture>
+	La etiqueta <source>
+	Imágenes responsive
+	Diferentes densidades
+	
+- La etiqueta HTML <video>
+	Atributos src y dimensiones
+	Atributos de control
+	Atributos de precarga
+		El atributo poster
+		El atributo preload
+	Videos con fallbacks o extras
+		La etiqueta <source>
+	Acceso a segundos especificos
+
+- La etiqueta HTML <audio>
+		El atributo src
+		¿Por qué no suena?
+		Atributos de control
+		Precarga de audio
+		Audios con fallbacks o extras
+

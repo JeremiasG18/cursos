@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La etiqueta HTML video</title>
+</head>
+<body>
+    
+    <!-- La etiqueta <video> -->
+    <!-- <video src="video.mp4" width="360" height="640"></video> -->
+
+    <!-- Atributos de control -->
+    <!-- <video src="video.mp4" autoplay muted loop></video> -->
+
+    <!-- Atributo preload -->
+    <!-- <video src="video.mp4" poster="poster.png" preload="metadata" controls></video> -->
+
+    <!-- La etiqueta <source> -->
+    <!-- <video width="640" height="480">
+        <source src="video.mp4" type="video/mp4" />
+        <source src="video.webm" type="video/webm" />
+        <source src="video.ogv" type="video/ogg" />
+        <img src="imagen.png" alt="Video no soportado" />
+        Su navegador no soporta contenido multimedia.
+    </video> -->
+
+    <!-- Acceso a segundos especificos -->
+    <video controls src="video.mp4#t=15"></video>
+
+    <video autoplay src="video.mp4#t=10,20"></video>
+
+</body>
+</html>

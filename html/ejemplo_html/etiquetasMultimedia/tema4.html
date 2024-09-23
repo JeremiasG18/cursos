@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La etiqueta HTML audio</title>
+</head>
+<body>
+    
+    <!-- El atributo src -->
+    <audio src="audio.mp3"></audio>
+
+    <!-- Atributos de control -->
+    <audio src="audio.mp3" controls autoplay loop></audio>
+
+    <!-- Audios con fallbacks o extras -->
+    <audio>
+        <source src="audio.opus">
+        <source src="audio.ogg">
+        <source src="audio.mp3">
+    </audio>
+
+</body>
+</html>
