@@ -28,7 +28,7 @@
 
     // sintaxis simple
     $fruta = "manzana";
-    echo "Tengo un par de ${fruta}s.".PHP_EOL;
+    echo "Tengo un par de {$fruta}s.".PHP_EOL;
 
     echo "<br>";
 

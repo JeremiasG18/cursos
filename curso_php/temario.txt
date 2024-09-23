@@ -82,5 +82,32 @@ Referencia del lenguaje
 			parent
 			static
 		Value types
-
+		Iterables
+			Empleo de Iterables
+			Varianza del tipo de Iterable
+		Declaraciones de tipo
+			Tipos simples
+				mixed
+				Ejemplos
+			Tipos compuestos
+				Tipos de union
+					Tipos de union nullable
+					false pseudo-type
+				Tipos intersección
+				Tipos duplicados y redundantes
+			Tipos de solo lectura
+				void
+				never
+				static
+			Tipificación estricto
+			Tipificación coercitiva con tipos Unión
+			Misc
+		Manipulación de tipos
+			Forzado de tipos
+		Conceptos básicos
+		Variables predefinidas
+		Ámbito de las variables
+			La palabra clave global
+			Uso de variables static
+			Referencias con variables globlal y static
 			
