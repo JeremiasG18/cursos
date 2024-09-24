@@ -194,3 +194,25 @@ Etiquetas multimedia
 		Precarga de audio
 		Audios con fallbacks o extras
 
+- Formatos multimedia
+	Formatos de imágenes
+	Formatos de video
+	Formatos de audio
+
+- La etiqueta HTML <track>
+	La etiqueta <track>
+		El atributo src y srclang
+		El atributo label y default
+		El atributo kind
+	Formato WebVTT
+
+- La etiqueta HTML <iframe>
+	La etiqueta <iframe>
+		El atributo name
+		El atributo srcdoc
+		El atributo allowfullscreen
+		El atributo loading
+	Etiquetas externas (legacy)
+		La etiqueta <embed>
+		La etiqueta <object>
+		
