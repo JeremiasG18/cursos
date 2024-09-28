@@ -1,11 +1,11 @@
 Curso de php
 echo
 if, elseif, else
-var_dump
-round
-gettype
+var_dump()
+round()
+gettype()
 is_int, is_string => is_"tipo"
-settype
+settype()
 null
 is_null()
 unset()
@@ -16,4 +16,44 @@ intval()
 int
 abs()
 is_nan()
+PHP_EOL
+error_reporting(E_ALL)
+strval()
+array()
+unset()
+array_values()
+ini_set()
+count()
+define()
+$_GET
+strtoupper()
+opendir()
+call_user_func()
+range()
+array_map()
+implode()
+print
 
+Funciones de string
+addcslashes() => Devuelve un string con barras invertidas antes de los caracteres que aparecen en el parámetro characters.
+addslashes() => Devuelve una cadena con barras invertidas agregadas antes de los caracteres que deben tener carácter de escape. Estos caracteres son ('), ("), (\), (the nul byte).
+bin2hex() => Devuelve una cadena ASCII que contiene la representación hexadecimal de str. La conversión se realiza byte a byte, con los 4 bits superiores primero. Convierte datos binarios en su representación hexadecimal
+chop() => Alias de rtrim() => elimina espacio, salto de linea, caracteres personalizados todo al final de una cadena
+chr() => Devuelve una cadena de un caracter que contiene el carácter especificado por ascii. Devuelve un caracter especifico
+chunk_split() => Divide una cadena en trozos más pequeños
+convert_uudecode() => Descodifica una cadena codificada mediante uuencode
+convert_uuencode() => Codificar mediante uuencode una cadena. Codifica una cadena usando el algoritmo uuencode.
+count_chars() => Devuelve información sobre los caracteres usados en una cadena. Cuenta el número de apariciones de cada byte-value (0..255) en string y lo devuelve de varias maneras.
+crc32() => Calcula el polinomio crc32 de una cadena
+crypt() => Hash de cadenas de un sólo sentido. Devolverá el hash de un string utilizando el algoritmo estándar basado en DES de Unix o algoritmos alternativos que puedan estar disponibles en el sistema.
+echo() => Muestra una o más cadenas
+
+Constantes magicas de php
+__LINE__
+__FILE__
+__DIR__
+__FUNCTION__
+__CLASS__
+__TRAID__
+__METHOD__
+__NAMESPACE__

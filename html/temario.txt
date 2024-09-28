@@ -69,4 +69,182 @@ Metadatos
 	Metadatos de simulación HTTP
 	Redirección Javascript
 	Etiquetas de caché
+
+- Etiquetas para redes sociales
+	Mediante HTML estandar
+	Mediante Open Graph
+	Mediante Twitter Cards
 	
+- Etiquetas para SEO/Google
+	Metadatos para SEO
+	Metadatos de indexación en Google
+	La etiqueta <meta> robots
+
+- Etiqueta para diseño responsive
+	¿Qué es el Viewport?
+	Parámetros de viewport
+
+Recursos externos
+- La etiqueta HTML <link>
+	Relación: La etiqueta <link>
+	Versiones alternativas
+	Posicionamiento SEO (Google)
+	Referencias mediante pingback
+	Información adicional o datos
+	Manifesto de aplicación
+
+- Stylesheet: Hojas de estilo externas
+	La etiqueta <link rel="stylesheet">
+	La etiqueta <link rel="alternate stylesheet">
+	Legacy: Atributo type="text/css"
+
+- Favicon: El icono de las pestañas
+	La etiqueta <link rel="icon">
+
+- Etiquetas HTML de precarga
+	Etiquetas de precarga
+	Por dominio
+		Precarga de resolución DNS
+		Preconexión a un dominio
+	Por URL
+		Prerender
+	Por recurso
+		Espera de recurso
+		Descarga anticipada
+		Precarga de archivo
+		Precarga de módulo
+	Tipos de recursos
+
+Etiquetas de agrupación
+- La etiqueta de agrupación
+	Etiquetas HTML de agrupación
+	Parrafo de texto <p>
+	Contenido principal <main>
+	Separación tematica <hr>
+
+- La etiqueta HTML <div>
+	Capas o divisores <div>
+	Representación visual
+	Ubicación del elemento
+	Excesivas etiquetas anidadas
+	Agrupaciones semanticas
+
+- Las etiquetas HTML <ul> y <ol>
+	Lista no enumerada <ul>
+	Elemento de la lista <li>
+		Omision de cierre
+		Ponderar elementos
+	Lista de menú <menu>
+	Lista enumerada <ol>
+		Número del primer ítem
+		Tipo de numeración
+		Invertir orden
+
+- La etiqueta HTML <blockquote>
+	Citas o referencias
+	El atributo cite
+	Citas encadenadas
+	
+- La etiqueta HTML <pre>
+	Bloques de código
+	Librerías de resaltado de sintaxis
+	Otras librerias de resaltado
+	
+- La etiqueta HTML <dl>
+	Listas de descripción
+	
+- La etiqueta HTML <figure>
+	Figuras: La etiqueta <figure>
+	La etiqueta <figcaption>
+	
+Etiquetas multimedia
+- La etiqueta HTML <img>
+	La etiqueta <img>
+	El atributo src
+	El atributo alt
+	Los atributos width y height
+	Carga de imagenes
+		El atributo loading
+		El atributo fetchpriority
+		El atributo decoding
+	Múltiples imágenes
+		El atributo srcset
+		El atributo sizes
+
+- La etiqueta HTML <picture>
+	La etiqueta <picture>
+	La etiqueta <source>
+	Imágenes responsive
+	Diferentes densidades
+	
+- La etiqueta HTML <video>
+	Atributos src y dimensiones
+	Atributos de control
+	Atributos de precarga
+		El atributo poster
+		El atributo preload
+	Videos con fallbacks o extras
+		La etiqueta <source>
+	Acceso a segundos especificos
+
+- La etiqueta HTML <audio>
+		El atributo src
+		¿Por qué no suena?
+		Atributos de control
+		Precarga de audio
+		Audios con fallbacks o extras
+
+- Formatos multimedia
+	Formatos de imágenes
+	Formatos de video
+	Formatos de audio
+
+- La etiqueta HTML <track>
+	La etiqueta <track>
+		El atributo src y srclang
+		El atributo label y default
+		El atributo kind
+	Formato WebVTT
+
+- La etiqueta HTML <iframe>
+	La etiqueta <iframe>
+		El atributo name
+		El atributo srcdoc
+		El atributo allowfullscreen
+		El atributo loading
+	Etiquetas externas (legacy)
+		La etiqueta <embed>
+		La etiqueta <object>
+
+Etiquetas de texto
+- Etiquetas semánticas de texto
+	Fragmentos de texto
+	Fragmentos con significado
+	Fragmentos técnicos/informaticos
+	Fragmentos de edicion
+
+- Enlaces o hipervínculos
+	Esquema URL
+		Protocolo
+		Dominio
+		Ruta o path
+		Parámetros o query strings
+		Anclas
+		Fragmentos de texto
+	Estado de un enlace
+	Rutas relativas o absolutas
+
+- La etiqueta HTML <a>
+	Enlaces o hipervínculos <a>
+		El atributo href
+		El atributo hreflang
+		El atributo download
+		El atributo target
+		El atributo rel
+		El atributo type
+	
+- La etiqueta HTML <strong>
+	La etiqueta <strong>
+		Partes importantes
+		Etiquetas anidadas
+	La etiqueta <b>

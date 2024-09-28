@@ -37,5 +37,120 @@ Referencia del lenguaje
 			Sintaxis
 				Entrecomillado simple
 				Entrecomillado doble
+					Caracteres escapados
 				Heredoc
-				
+				Nowdoc
+				Analisis de variables
+					Sintaxis simple
+					Sintaxis compleja (llaves)
+				Acceso a string y modificación por caracteres
+			Funciones y operadores utiles
+			Conversion a string
+			Conversion de string a numeros
+			Detalles del tipo string
+		Cadenas numericas => numeric strings
+			String used in numeric contexts
+			Behavior prior to PHP 8.0.0
+		Arrays
+			Sintaxis
+				Especificación con array()
+				Acceso a elementos de array con la sintaxis de corchete
+				Creación/modificación con la sintaxis de corchete
+				Funciones útiles
+			Recomendaciones sobre arrays y cosas a evitar
+				¿Por qué es incorrecto $foo[bar]?
+			Conversion a array
+			Comparación
+			Descomprensión de matrices => array unpacking
+			Ejemplos
+		Objetos
+			Inicialización de objetos
+			Conversión a un objeto
+		Enumerations
+			Basic Enumerations
+			Casting
+		Recursos
+			Conversion a recurso
+			Liberación de recursos
+		Llamadas de retorno (Callbacks/Callables)
+			Pasar una función de llamada de retorno
+		Mixed
+		Void
+		Never
+		Relative class type
+			self
+			parent
+			static
+		Value types
+		Iterables
+			Empleo de Iterables
+			Varianza del tipo de Iterable
+		Declaraciones de tipo
+			Tipos simples
+				mixed
+				Ejemplos
+			Tipos compuestos
+				Tipos de union
+					Tipos de union nullable
+					false pseudo-type
+				Tipos intersección
+				Tipos duplicados y redundantes
+			Tipos de solo lectura
+				void
+				never
+				static
+			Tipificación estricto
+			Tipificación coercitiva con tipos Unión
+			Misc
+		Manipulación de tipos
+			Forzado de tipos
+
+	- Variables	
+		Conceptos básicos
+		Variables predefinidas
+		Ámbito de las variables
+			La palabra clave global
+			Uso de variables static
+			Referencias con variables globlal y static
+		Variables variables
+		Variables desde fuentes externas
+			Formularios HTML (GET y POST)
+				Nombres de variables tipo IMAGE SUBMIT
+			Cookies HTTP
+			Puntos en los nombres de variables de entrada
+			Determinación de los tipos de variables
+			Historial de cambios
+
+	- Constantes
+		Sintaxis
+			Ver tambien
+		Constantes predefinidas
+		Constantes magicas
+	
+	- Expresiones
+
+	- Operadores
+		Precedencia de operadores
+			Precedencia de operadores tabla
+		Operadores aritmeticos
+		Operadores de asignación
+			Asignación por referencia
+		Operadores bit a bit
+		Operadores de Comparación
+			Operador ternario
+			Null Coaulescing Operator
+		Operador de control de errores
+		Operadores de ejecución
+		Operadores de incremento/decremento
+		Operadores logicos
+		Operadores para string
+		Operadores para arrays
+		Operadores de tipo
+	
+	- Estructuras de Control
+		Introduccion
+		If
+		Else
+		Elseif o else if
+		Sintaxis alternativa de estructuras de control
+		While

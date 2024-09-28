@@ -1,50 +1,67 @@
 <?php
-    echo 'Esto es una cadena sencilla';
+
+    // cadena de caracteres
+    $nombre = "Jeremias";
+    // comillas dobles
+    $saludo = "Hola $nombre, como te va?";
+    // comillas simples
+    $saludo2 = 'Hola $nombre, como te va?';
+    // heredoc = comillas dobles
+    $saludo3 = <<<saludo
+    Hola $nombre,
+    como te va?
+    saludo;
+    // nowdoc = comillas simples
+    $saludo4 = <<<'saludo'
+    Hola $nombre,
+    como te va?
+    saludo;
+
+    echo $saludo;
+    echo "<br>";
+    echo $saludo2;
+    echo "<br>";
+    echo $saludo3;
+    echo "<br>";
+    echo $saludo4;
+    echo "<br>";
+
+    // sintaxis simple
+    $fruta = "manzana";
+    echo "Tengo un par de {$fruta}s.".PHP_EOL;
 
     echo "<br>";
 
-    echo 'También se pueden incluir nuevas líneas en
-    un string de esta forma, ya que es
-    correcto hacerlo así';
+    // sintaxis compleja (llaves)
+    $genial = "fantastico";
+    echo "Esto son los 4-{$genial}s.".PHP_EOL;
 
     echo "<br>";
 
-    // Resultado: Arnold una vez dijo: "I'll be back"
-    echo 'Arnold una vez dijo: "I\'ll be back"';
+    // los string funcionan como arreglo
+    $str = "Hello";
+    $primer = $str[0];
+    echo $primer;
 
     echo "<br>";
 
-    // Resultado: Ha borrado C:\*.*?
-    echo 'Ha borrado C:\\*.*?';
+    // contacatenar con '.'(punto), el signo '+' no servira
+    $concatenacion = "Hello"."World";
+    echo $concatenacion;
+    // $concatenacion2 = "Hello" + "World"; => esto no funciona
+    // echo $concatenacion2;
 
     echo "<br>";
 
-    // Resultado: Ha borrado C:\*.*?
-    echo 'Ha borrado C:\*.*?';
+    // conversion de string a numero
+    $foo = 1 + "10.5";                   // $foo es float (11.5)
+    $foo = 1 + "-1.3e3";                 // $foo es float (-1299)
+    // $foo = 1 + "bob-1.3e3";              // $foo es integer (1)
+    // $foo = 1 + "bob3";                   // $foo es integer (1)
+    // $foo = 1 + "10 pequeños cerdos";     // $foo es integer (11)
+    // $foo = 4 + "10.2 pequeños cerditos"; // $foo es float (14.2)
+    // $foo = "10.0 cerdos " + 1;           // $foo es float (11)
+    // $foo = "10.0 cerdos " + 1.0;         // $foo es float (11)     
+    echo $foo;
 
-    echo "<br>";
-
-    // Resultado: Esto no se expandirá: \n una nueva línea
-    echo 'Esto no se expandirá: \n una nueva línea';
-
-    echo "<br>";
-
-    // Resultado: Las variables $tampoco se $expandirán
-    echo 'Las variables $tampoco se $expandirán';
-
-?>
-
-<?php
-
-    $nombre = "JEREMIAS";
-    echo <<<cadenaDeCaracteres
-     Estoy usando heredoc, es medio feo pero 🤷‍♂️, "puedo entre comillar esto con comillas dobles", 'y simples'
-     es medio raro esto con el heredoc. $nombre
-    cadenaDeCaracteres;
-
-    echo <<<'cadenaDeCaracteres'
-    Estoy usando nowdoc que creo que es peor que heredoc, hasta diria
-    que prefiero heredoc en lugar de nowdoc, pero este tambien tiene sus cositas.
-    por ejemplo => $nombre
-    cadenaDeCaracteres;
 ?>
