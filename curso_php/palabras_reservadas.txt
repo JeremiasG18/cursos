@@ -47,3 +47,13 @@ count_chars() => Devuelve información sobre los caracteres usados en una cadena
 crc32() => Calcula el polinomio crc32 de una cadena
 crypt() => Hash de cadenas de un sólo sentido. Devolverá el hash de un string utilizando el algoritmo estándar basado en DES de Unix o algoritmos alternativos que puedan estar disponibles en el sistema.
 echo() => Muestra una o más cadenas
+
+Constantes magicas de php
+__LINE__
+__FILE__
+__DIR__
+__FUNCTION__
+__CLASS__
+__TRAID__
+__METHOD__
+__NAMESPACE__

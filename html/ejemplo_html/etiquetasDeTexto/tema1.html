@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La etiqueta HTML a</title>
+</head>
+<body>
+    
+    <!-- El atributo href -->
+    <p>Puedes visitar mi página web en <a href="https://manz.dev/">Manz.dev</a>.</p>
+
+    <!-- El atributo hreflang -->
+    <p>
+        En el siguiente enlace puedes encontrar un documento PDF con la
+        <a href="https://dominio.com/documento-en.pdf" hreflang="en">traducción en inglés</a>
+        del artículo.
+    </p>
+
+    <!-- El atributo download -->
+    <p>
+        Más información sobre <a href="/productos.pdf">productos informáticos</a>
+        [<a href="/productos.pdf" download>Descargar productos.pdf</a>].
+    </p>
+
+    <!-- indicandole el nombre que va a tener el archivo al descargarse -->
+    <p>
+        Más información sobre <a href="/productos.pdf">productos informáticos</a>
+        [<a href="/productos.pdf" download="A-38.pdf">Descargar la forma A-38</a>].
+    </p>
+
+    <!-- El atributo target -->
+    <p>
+        Abrir <a href="https://lenguajecss.com/" target="_blank">LenguajeCSS
+        en una nueva pestaña</a>.
+    </p>
+
+    <!-- El atributo rel -->
+    <p>Autor: <a rel="author" href="https://manz.dev/">ManzDev</a></p>
+
+    <!-- otro ejemplo del atributo rel -->
+    <ul>
+        <li>Artículo anterior: <a rel="prev" href="/thor-hammer-part-1"></a></li>
+        <li>Artículo siguiente: <a rel="next" href="/thor-hammer-part-3"></a></li>
+    </ul>
+
+    <!-- El atributo type -->
+    <p>
+        <a type="application/pdf" href="/prices.pdf">Examinar fichero PDF con lista de precios</a>
+    </p>
+
+</body>
+</html>

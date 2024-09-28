@@ -215,4 +215,36 @@ Etiquetas multimedia
 	Etiquetas externas (legacy)
 		La etiqueta <embed>
 		La etiqueta <object>
-		
+
+Etiquetas de texto
+- Etiquetas semánticas de texto
+	Fragmentos de texto
+	Fragmentos con significado
+	Fragmentos técnicos/informaticos
+	Fragmentos de edicion
+
+- Enlaces o hipervínculos
+	Esquema URL
+		Protocolo
+		Dominio
+		Ruta o path
+		Parámetros o query strings
+		Anclas
+		Fragmentos de texto
+	Estado de un enlace
+	Rutas relativas o absolutas
+
+- La etiqueta HTML <a>
+	Enlaces o hipervínculos <a>
+		El atributo href
+		El atributo hreflang
+		El atributo download
+		El atributo target
+		El atributo rel
+		El atributo type
+	
+- La etiqueta HTML <strong>
+	La etiqueta <strong>
+		Partes importantes
+		Etiquetas anidadas
+	La etiqueta <b>

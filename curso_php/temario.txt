@@ -104,10 +104,53 @@ Referencia del lenguaje
 			Misc
 		Manipulación de tipos
 			Forzado de tipos
+
+	- Variables	
 		Conceptos básicos
 		Variables predefinidas
 		Ámbito de las variables
 			La palabra clave global
 			Uso de variables static
 			Referencias con variables globlal y static
-			
+		Variables variables
+		Variables desde fuentes externas
+			Formularios HTML (GET y POST)
+				Nombres de variables tipo IMAGE SUBMIT
+			Cookies HTTP
+			Puntos en los nombres de variables de entrada
+			Determinación de los tipos de variables
+			Historial de cambios
+
+	- Constantes
+		Sintaxis
+			Ver tambien
+		Constantes predefinidas
+		Constantes magicas
+	
+	- Expresiones
+
+	- Operadores
+		Precedencia de operadores
+			Precedencia de operadores tabla
+		Operadores aritmeticos
+		Operadores de asignación
+			Asignación por referencia
+		Operadores bit a bit
+		Operadores de Comparación
+			Operador ternario
+			Null Coaulescing Operator
+		Operador de control de errores
+		Operadores de ejecución
+		Operadores de incremento/decremento
+		Operadores logicos
+		Operadores para string
+		Operadores para arrays
+		Operadores de tipo
+	
+	- Estructuras de Control
+		Introduccion
+		If
+		Else
+		Elseif o else if
+		Sintaxis alternativa de estructuras de control
+		While
