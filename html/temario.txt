@@ -248,3 +248,24 @@ Etiquetas de texto
 		Partes importantes
 		Etiquetas anidadas
 	La etiqueta <b>
+
+- La etiqueta HTML <em>
+	La etiqueta <em>
+		Etiquetas anidadas
+	La etiqueta <i>
+
+- La etiqueta HTML <mark>
+	La etiqueta <mark>
+	La etiqueta <u>
+
+- La etiqueta HTML <s>
+	La etiqueta <s>
+	La etiqueta <strike> => deprecated
+
+- La etiqueta HTML <span>
+	La etiqueta <span>
+		Significado de <span>
+		Etiquetas anidadas
+
+- La etiqueta HTML <kdb> y <samp>
+	
