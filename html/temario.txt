@@ -267,5 +267,48 @@ Etiquetas de texto
 		Significado de <span>
 		Etiquetas anidadas
 
-- La etiqueta HTML <kdb> y <samp>
+- La etiqueta HTML <q> y <cite>
+	La etiqueta <q>
+		El atributo cite
+	La etiqueta <cite>
+
+- La etiqueta HTML <sup> y <sub>
+	La etiqueta <sup>
+	La etiqueta <sub>
+	Fórmulas complejas
+
+- La etiqueta HTML <small>
+	La etiqueta <small>
+	La etiqueta <big>
 	
+- La etiqueta HTML <br> y <wbr>
+	La etiqueta <br>
+		Uso de <br> para maquetar
+	La etiqueta <wbr>	
+
+- La etiqueta HTML <kbd> y <samp>
+	La etiqueta <kbd>
+		Combinaciones de teclas
+		La etiqueta <samp>
+
+- La etiqueta HTML <abbr> y <dfn>
+	La etiqueta <abbr>
+	La etiqueta <dfn>
+	
+- La etiqueta HTML <time> y <data>
+	La etiqueta <time>
+		El atributo datetime
+		La etiqueta <data>
+		La etiqueta <var>
+
+- La etiqueta HTML <code>
+	La etiqueta <code>
+	Codigo HTML dentro de <code>
+	
+- La etiqueta HTML <ins> y <del>
+	La etiqueta <ins>
+		El atributo datetime
+		El atributo cite
+	La etiqueta <del>
+	
+Etiquetas semánticas
