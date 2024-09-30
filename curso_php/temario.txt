@@ -154,3 +154,8 @@ Referencia del lenguaje
 		Elseif o else if
 		Sintaxis alternativa de estructuras de control
 		While
+		Do-While
+		Foreach
+		Break
+		Continue
+		Switch

@@ -8,6 +8,8 @@ while ($i <= 10) {
                    (post-incremento) */
 }
 
+echo "<br>";
+
 /* ejemplo 2 */
 
 $i = 1;

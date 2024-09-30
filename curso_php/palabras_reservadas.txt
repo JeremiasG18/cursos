@@ -48,6 +48,10 @@ crc32() => Calcula el polinomio crc32 de una cadena
 crypt() => Hash de cadenas de un sólo sentido. Devolverá el hash de un string utilizando el algoritmo estándar basado en DES de Unix o algoritmos alternativos que puedan estar disponibles en el sistema.
 echo() => Muestra una o más cadenas
 
+
+Funciones de arrays
+list() => para asignar variables como si fueran un array
+
 Constantes magicas de php
 __LINE__
 __FILE__
