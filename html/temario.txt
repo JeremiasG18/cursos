@@ -312,3 +312,37 @@ Etiquetas de texto
 	La etiqueta <del>
 	
 Etiquetas semánticas
+- Etiquetas semánticas de seccion
+	Estructura HTML no semántica
+	Estructura HTML semántica
+	Etiqueta semánticas de sección
+
+- La etiqueta HTML <article>
+	La etiqueta <article>
+	Etiquetas <article> anidadas
+
+- La etiqueta HTML <nav>
+	La etiqueta <nav>
+	Multiples elementos <nav>
+
+- La etiqueta <header> y <footer>
+	La etiqueta <header>
+		Cabeceras de elementos especificos
+	La etiqueta <footer>
+
+- La etiqueta HTML <h1> ... <h6>
+	La etiqueta <h1>
+	La etiqueta <h2> ... <h6>
+	La etiqueta <hgroup>
+
+- La etiqueta HTML <search>
+	La etiqueta <search>
+
+- La etiqueta HTML <section>
+	La etiqueta <section>
+	La etiqueta <main>
+		El atributo hidden
+	La etiqueta <aside>
+
+- La etiqueta HTML <address>
+	La etiqueta <address>
