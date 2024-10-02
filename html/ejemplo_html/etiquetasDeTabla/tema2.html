@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas con celdas irregulares</title>
+</head>
+<body>
+    
+    <!-- La etiqueta <th> -->
+    <table>
+        <tr>
+          <th>Animal</th>
+          <th>Característica principal</th>
+          <th>Probabilidad de dominar el mundo</th>
+        </tr>
+        <tr>
+          <th scope="rowgroup">Gatos</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Siamés</td>
+          <td>Elegante.</td>
+          <td>Alta</td>
+        </tr>
+        <tr>
+          <td>Persa</td>
+          <td>Le gusta ser adorado.</td>
+          <td>Alta</td>
+        </tr>
+        <!-- ... -->
+        <tr>
+          <th scope="rowgroup">Perros</th>
+          <td></td>
+          <td></td>
+        </tr>
+        <!-- ... -->
+    </table>
+
+
+    <!-- El atributo colspan -->
+    <table>
+        <tr>
+          <th>Animal</th>
+          <th>Característica principal</th>
+          <th>Probabilidad de dominar el mundo</th>
+        </tr>
+        <tr>
+          <th scope="rowgroup" colspan="3">Gatos</th>
+        </tr>
+        <tr>
+          <td>Siamés</td>
+          <td>Elegante.</td>
+          <td>Alta</td>
+        </tr>
+        <tr>
+          <td>Persa</td>
+          <td>Le gusta ser adorado.</td>
+          <td>Alta</td>
+        </tr>
+        <!-- ... -->
+        <tr>
+          <th scope="rowgroup" colspan="3">Perros</th>
+        </tr>
+        <!-- ... -->
+    </table>
+    
+</body>
+</html>

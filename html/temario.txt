@@ -346,3 +346,27 @@ Etiquetas semánticas
 
 - La etiqueta HTML <address>
 	La etiqueta <address>
+
+Etiquetas de tablas
+- La etiqueta HTML <table>
+	La etiqueta <table>
+	Estilo para una tabla
+
+- Tablas con celdas irregulares
+	La etiqueta <th>
+	La etiqueta <th> y <td>
+		El atributo colspan
+		El atributo rowspan
+		El atributo headers
+
+- Organización de tablas HTML
+	La etiqueta <caption>
+	Agrupaciones de partes de la tabla
+	
+- Columnas en tablas HTML
+	La etiqueta <col>
+		Atributo span
+		Alternativa con CSS
+	La etiqueta <colgroup>
+
+Etiquetas de formularios
