@@ -61,3 +61,7 @@ __CLASS__
 __TRAID__
 __METHOD__
 __NAMESPACE__
+
+
+require => esto detiene el programa en caso de error mientras que el include no
+include => esto incluye un archivo en el archivo que lo esta llamando o haciendo referencia

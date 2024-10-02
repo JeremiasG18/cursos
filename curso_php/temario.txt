@@ -159,3 +159,31 @@ Referencia del lenguaje
 		Break
 		Continue
 		Switch
+		Match
+			Usando expresiones match para manejar comprobaciones de no identidad
+		Declare
+			Ticks
+			Encoding
+		Return
+		Require
+		Include
+		Require_once
+		Include_once
+		Goto
+
+	- Funciones
+		Funciones definidas por el usuario
+		Argumentos de Funciones
+			Paso de argumentos por referencia
+			Valores de argumentos predeterminados
+			Declaraciones de tipo
+				Tipos validos
+				Ejemplos
+				Tipificación estricta
+			Lista de argumentos de longitud variable
+				Versiones antiguas de PHP
+			Argumentos nombrados
+		Devolver valores
+			Empleo de return
+			Declaraciones de tipo de devolución
+				Ejemplos
