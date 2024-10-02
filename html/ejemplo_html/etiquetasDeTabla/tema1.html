@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La etiqueta HTML table</title>
+</head>
+<body>
+    
+    <!-- La etiqueta <table> -->
+    <table>
+        <!-- Fila de la cabecera -->
+        <tr>
+          <th>Título columna 1</th> <!-- Celda cabecera de la columna 1 -->
+          <th>Título columna 2</th> <!-- Celda cabecera de la columna 2 -->
+          <th>Título columna 3</th> <!-- Celda cabecera de la columna 3 -->
+        </tr>
+        <!-- Primera fila -->
+        <tr>
+          <td>Celda 1x1</td> <!-- Primera celda de la primera fila -->
+          <td>Celda 2x1</td> <!-- Segunda celda de la primera fila -->
+          <td>Celda 3x1</td> <!-- Tercera celda de la primera fila -->
+        </tr>
+        <!-- Segunda fila -->
+        <tr>
+          <td>Celda 1x2</td> <!-- Primera celda de la segunda fila -->
+          <td>Celda 2x2</td> <!-- Segunda celda de la segunda fila -->
+          <td>Celda 3x2</td> <!-- Tercera celda de la segunda fila -->
+        </tr>
+    </table>
+
+    <!-- se le puede poner estilos a una tabla -->
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid #000;
+        }
+
+        td,
+        th {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+
+        th {
+            background: #000;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        td {
+            text-align: center;
+            border-bottom: 2px solid #111;
+            color: #333;
+            font-size: 18px;
+        }
+    </style>
+
+</body>
+</html>
