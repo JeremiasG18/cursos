@@ -187,3 +187,13 @@ Referencia del lenguaje
 			Empleo de return
 			Declaraciones de tipo de devolución
 				Ejemplos
+		Funciones variables
+			Historial de cambios
+		Funciones internas (incluidas)
+		Funciones anonimas
+			Funciones anonimas estáticas
+		Funciones de flecha
+			Historial de cambios
+		Sintaxis de llamada de primera clase => First class callable syntax
+
+	- Clases y objetos
