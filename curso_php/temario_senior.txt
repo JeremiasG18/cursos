@@ -1,21 +1,21 @@
 Para convertirte en un **Senior Developer en PHP**, necesitas un conocimiento profundo no solo del lenguaje, sino también de las herramientas, buenas prácticas y patrones de diseño que lo rodean. A continuación te proporciono un **temario detallado** para guiarte en ese camino.
 
-### 1. **Fundamentos del Lenguaje**
-   - Introducción a PHP
-   - Sintaxis básica y estructura del código
-   - Variables y tipos de datos
-   - Operadores
-   - Estructuras de control (if, else, switch)
-   - Bucles (for, foreach, while, do-while)
-   - Funciones en PHP
-     - Funciones anónimas y lambdas
-     - Funciones recursivas
-   - Arrays y manejo de arrays
-     - Arrays asociativos y multidimensionales
+### 1. **Fundamentos del Lenguaje** ✔
+   - Introducción a PHP ✔
+   - Sintaxis básica y estructura del código ✔
+   - Variables y tipos de datos ✔
+   - Operadores ✔
+   - Estructuras de control (if, else, switch) ✔
+   - Bucles (for, foreach, while, do-while) ✔
+   - Funciones en PHP ✔
+     - Funciones anónimas y llamadas ✔
+     - Funciones recursivas ✔
+   - Arrays y manejo de arrays ✔
+     - Arrays asociativos y multidimensionales ✔
 
 ### 2. **Programación Orientada a Objetos (OOP)**
-   - Clases y objetos
-   - Propiedades y métodos
+   - Clases y objetos ✔
+   - Propiedades y métodos ✔
    - Herencia y composición
    - Encapsulamiento, abstracción y polimorfismo
    - Interfaces y clases abstractas
@@ -25,12 +25,12 @@ Para convertirte en un **Senior Developer en PHP**, necesitas un conocimiento pr
    - Manejo de errores y excepciones
 
 ### 3. **Manejo de Bases de Datos**
-   - Introducción a bases de datos relacionales
+   - Introducción a bases de datos relacionales ✔
    - Conexión a bases de datos con PDO y MySQLi
-   - Consultas SQL (SELECT, INSERT, UPDATE, DELETE)
+   - Consultas SQL (SELECT, INSERT, UPDATE, DELETE) ✔
    - Preparación y ejecución de sentencias SQL (consultas preparadas)
    - Transacciones en bases de datos
-   - Índices, relaciones y claves foráneas
+   - Índices, relaciones y claves foráneas ✔
    - ORM (Object-Relational Mapping)
      - Introducción a ORMs en PHP (Doctrine, Eloquent)
 

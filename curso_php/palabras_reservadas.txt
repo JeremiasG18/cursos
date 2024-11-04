@@ -1,58 +1,90 @@
 Curso de php
-echo
-if, elseif, else
-var_dump()
-round()
-gettype()
-is_int, is_string => is_"tipo"
-settype()
-null
-is_null()
-unset()
-true, false
-nan
-round()
-intval()
-int
-abs()
-is_nan()
-PHP_EOL
-error_reporting(E_ALL)
-strval()
-array()
-unset()
-array_values()
-ini_set()
-count()
-define()
-$_GET
-strtoupper()
-opendir()
-call_user_func()
-range()
-array_map()
-implode()
-print
+
+-- Funciones Matematicas --
+round() => redondea un float.
+abs() => devuelve el valor absoluto de un numero.
+
+-- Funciones de manejo de variables --
+is_int, is_string, is_null(), is_nan(), ... => devuelve un valor booleano dependiendo el tipo dato que contiene.
+settype() => establece el tipo de una variable.
+gettype() => obtener el tipo de una variable.
+unset() =>  destruye una o mas variables especificas.
+intval() => obtiene el valor entero de una variable.
+strval() => obtiene el valor de cadena de una variable.
+
+
+-- Palabras clave --
+null => ausencia de valor.
+true, false => valor booleano.
+nan => not a number, es un resultado indefinido o no representable numericamente.
+int => valor entero.
+PHP_EOL => representa el caracter de fin de línea.
+array() => es un constructor para crear un arreglo (array).
+if, elseif, else => estructura de control.
+var_dump() => muestra información sobre una variable.
+readonly => establece a una variable, clase, ... de solo lectura.
+static => establece a una variable, funcion, ... estatico.
+public => establece una variable, funcion, ... publico.
+class => para crear una clase.
+AllowDynamicProperties => este atributo se utiliza para marcar clases que permiten propiedades dinamicas
+new => para crear una nueva instancia de una clase
+
+
+-- Funciones de manejo de Funciones --
+call_user_func() => llamar a una llamada de retorno dada por el primer parámetro
+
+
+-- Funciones de Manejo de Errores --
+error_reporting() => establece cuáles errores de PHP son notificados
+
+
+-- Constantes predefinidas PARA EL MANEJO DE ERRORES--
+E_ALL => todos los errores, advertencias y avisos.
+
+
+-- Funciones de Arrays --
+array_values() => devuelve todos los valores de un array.
+count() => cuenta todos los elementos de un array o algo de un objeto.
+range() => crear un array que contiene un rango de elementos.
+array_map() => aplica la retrollamada a los elementos de los arrays dados
+list() => para asignar variables como si fueran un array
+
+
+-- Funciones de Opciones/Info de PHP --
+ini_set() => establece el valor de una directiva de configuración.
+
+
+-- Funciones varias -- 
+define() => define una constante con nombre.
+
+
+-- Variables predefinida --
+$_GET => un array asociativo de variables pasado al script actual via parametros URL.
+
+
+-- Funciones de directorio --
+opendir() => abre un gestor de directorio.
+
 
 Funciones de string
 addcslashes() => Devuelve un string con barras invertidas antes de los caracteres que aparecen en el parámetro characters.
 addslashes() => Devuelve una cadena con barras invertidas agregadas antes de los caracteres que deben tener carácter de escape. Estos caracteres son ('), ("), (\), (the nul byte).
-bin2hex() => Devuelve una cadena ASCII que contiene la representación hexadecimal de str. La conversión se realiza byte a byte, con los 4 bits superiores primero. Convierte datos binarios en su representación hexadecimal
-chop() => Alias de rtrim() => elimina espacio, salto de linea, caracteres personalizados todo al final de una cadena
-chr() => Devuelve una cadena de un caracter que contiene el carácter especificado por ascii. Devuelve un caracter especifico
-chunk_split() => Divide una cadena en trozos más pequeños
-convert_uudecode() => Descodifica una cadena codificada mediante uuencode
+bin2hex() => Devuelve una cadena ASCII que contiene la representación hexadecimal de str. La conversión se realiza byte a byte, con los 4 bits superiores primero. Convierte datos binarios en su representación hexadecimal.
+chop() => Alias de rtrim() => elimina espacio, salto de linea, caracteres personalizados todo al final de una cadena.
+chr() => Devuelve una cadena de un caracter que contiene el carácter especificado por ascii. Devuelve un caracter especifico.
+chunk_split() => Divide una cadena en trozos más pequeños.
+convert_uudecode() => Descodifica una cadena codificada mediante uuencode.
 convert_uuencode() => Codificar mediante uuencode una cadena. Codifica una cadena usando el algoritmo uuencode.
 count_chars() => Devuelve información sobre los caracteres usados en una cadena. Cuenta el número de apariciones de cada byte-value (0..255) en string y lo devuelve de varias maneras.
-crc32() => Calcula el polinomio crc32 de una cadena
+crc32() => Calcula el polinomio crc32 de una cadena.
 crypt() => Hash de cadenas de un sólo sentido. Devolverá el hash de un string utilizando el algoritmo estándar basado en DES de Unix o algoritmos alternativos que puedan estar disponibles en el sistema.
-echo() => Muestra una o más cadenas
+echo() => Muestra una o más cadenas.
+strtoupper() => convierte un string a máyusculas.
+implode() => une elementos de un array en un string.
+print => mostrar una cadena.
 
 
-Funciones de arrays
-list() => para asignar variables como si fueran un array
-
-Constantes magicas de php
+-- Constantes magicas de php --
 __LINE__
 __FILE__
 __DIR__
@@ -63,5 +95,7 @@ __METHOD__
 __NAMESPACE__
 
 
-require => esto detiene el programa en caso de error mientras que el include no
-include => esto incluye un archivo en el archivo que lo esta llamando o haciendo referencia
+require => incluye un archivo, pero detiene el programa en caso de error mientras que el include no.
+include => incluye un archivo.
+require_once => include un archivo una sola vez.
+include_once => include un archivo una sola vez.
