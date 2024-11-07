@@ -26,7 +26,7 @@ Para convertirte en un **Senior Developer en PHP**, necesitas un conocimiento pr
 
 ### 3. **Manejo de Bases de Datos**
    - Introducción a bases de datos relacionales ✔
-   - Conexión a bases de datos con PDO y MySQLi
+   - Conexión a bases de datos con PDO y MySQLi ✔
    - Consultas SQL (SELECT, INSERT, UPDATE, DELETE) ✔
    - Preparación y ejecución de sentencias SQL (consultas preparadas)
    - Transacciones en bases de datos

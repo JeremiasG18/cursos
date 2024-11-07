@@ -197,3 +197,13 @@ Referencia del lenguaje
 		Sintaxis de llamada de primera clase => First class callable syntax
 
 	- Clases y objetos
+		Introducción
+		Lo básico
+			class
+			Readonlyclasses
+			new
+			Propiedades y métodos
+			extends
+			Signature compatibility rules
+			::class
+			Nullsafe methods and properties

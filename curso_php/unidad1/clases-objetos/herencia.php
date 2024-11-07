@@ -38,7 +38,8 @@
     // Inicializando los objetos
     $persona = new Persona($nombre, $apellido);
     $persona->guardarPersona();
-
+    echo "<br>";
+    echo "Imprimo el valor de la propiedad: {$persona->nombre}";
     echo "<br>";
 
     $persona2 = new Persona("Leonardo", "Gonzalez");
@@ -52,5 +53,24 @@
 
     $año = (new DateTime())->format('Y');
     echo $año;
+
+
+    class Cosa{
+        function mostrarDato()
+        {
+            echo "Dato de la clase Cosa osea padre";
+        }
+    }
+
+    class Cosita extends Cosa{
+        function mostrarDato()
+        {
+            echo "Dato de la clase hija ";
+            parent::mostrarDato();
+        }
+    }
+
+    $cosa = new Cosita();
+    $cosa->mostrarDato();
     
 ?>
